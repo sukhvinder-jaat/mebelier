@@ -21,10 +21,10 @@
 }
 
 :root {
-  --fs-5xl: 100px;
-  --fs-4xl: 60px;
-  --fs-3xl: 50px;
-  --fs-2xl: 45px;
+  --fs-5xl: 35px;
+  --fs-4xl: 36px;
+  --fs-3xl: 20px;
+  --fs-2xl: 30px;
   --fs-xl: 40px;
   --fs-lg: 35px;
   --fs-md: 32px;
@@ -126,9 +126,22 @@
   font-weight: 900 !important;
 }
 
+@media (min-width: 576px) {
+  :root {
+    --fs-5xl: 60px;
+    --fs-4xl: 60px;
+    --fs-3xl: 50px;
+    --fs-2xl: 45px;
+    --fs-xl: 40px;
+    --fs-lg: 35px;
+    --fs-md: 32px;
+    --fs-sm: 30px;
+    --fs-xsm: 20px;
+  }
+}
 @media (min-width: 768px) {
   :root {
-    --fs-5xl: 100px;
+    --fs-5xl: 80px;
     --fs-4xl: 60px;
     --fs-3xl: 50px;
     --fs-2xl: 45px;
@@ -156,7 +169,7 @@
 
 @media (min-width: 1200px) {
   :root {
-    --fs-5xl: 100px;
+    --fs-5xl: 90px;
     --fs-4xl: 60px;
     --fs-3xl: 50px;
     --fs-2xl: 45px;
