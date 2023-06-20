@@ -5,7 +5,7 @@ import phone from "../assets/img/png/phone.svg";
 
 const Footer = () => {
   return (
-    <section className="footer _back bg-black py-5">
+    <section className="footer_back bg -black py-5">
       <div className="footer_container">
         <Row>
           <Col lg={5}>
