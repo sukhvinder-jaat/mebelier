@@ -5,7 +5,11 @@ import phone from "../assets/img/png/phone.svg";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <section className="footer_back bg -black py-5">
+=======
+    <section className="footer_bg py-5">
+>>>>>>> ea258fe057baf060db7fcd5d377ba2369d386c9e
       <div className="footer_container">
         <Row>
           <Col lg={5}>
@@ -15,7 +19,10 @@ const Footer = () => {
                 <p>НАШИ КОНТАКТЫ</p>
               </li>
               <li>
-                <a className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic" href="#">
+                <a
+                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic"
+                  href="#"
+                >
                   <span className="pe-4">
                     <img className="" src={phone} alt="phone" />
                   </span>
@@ -23,7 +30,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic" href="#">
+                <a
+                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic"
+                  href="#"
+                >
                   <span className="pe-4">
                     <img className="" src={phone} alt="phone" />
                   </span>
@@ -31,7 +41,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic" href="#">
+                <a
+                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic"
+                  href="#"
+                >
                   <span className="pe-4">
                     <img className="" src={phone} alt="phone" />
                   </span>
@@ -39,7 +52,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic" href="#">
+                <a
+                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white fst-italic"
+                  href="#"
+                >
                   <span className="pe-4">
                     <img className="" src={phone} alt="phone" />
                   </span>

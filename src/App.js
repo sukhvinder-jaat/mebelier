@@ -23,9 +23,9 @@ function App() {
       <Materials />
       <Accessories />
       <Factory />
-      <Footer />
       <BetweenSection/>
       <Footer_up_slider />
+      <Footer />
     </div>
   );
 }
