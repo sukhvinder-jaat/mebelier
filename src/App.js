@@ -6,11 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 import { SliderSecTwo } from "./components/SliderSecTwo";
 import Project3d from "./components/Project3d";
 import { Footer_up_slider } from "./components/Footer_up_slider";
+import { BetweenSection } from "./components/BetweenSection";
 function App() {
   return (
     <div className="App">
       <SliderSecTwo />
       <Project3d />
+      <BetweenSection/>
       <Footer_up_slider />
     </div>
   );
