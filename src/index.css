@@ -2,3 +2,12 @@
 .max_w_1920 {
     max-width: 1920px;
 }
+
+body {
+    background-image: url(../src/assets/img/png/body_bg.png);
+    background-size: cover;
+}
+
+.slider_container {
+    max-width: 1780px;
+}
