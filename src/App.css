@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+
+/* font-family*/
+.ff_Montserrat {
+  font-family: "Montserrat" !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_forum {
+  font-family: "Forum", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root {
+  --fs-5xl: 100px;
+  --fs-4xl: 60px;
+  --fs-3xl: 50px;
+  --fs-2xl: 45px;
+  --fs-xl: 40px;
+  --fs-lg: 35px;
+  --fs-md: 32px;
+  --fs-sm: 30px;
+  --fs-xsm: 20px;
+  --color-clr_black: #070707 !important;
+  --color-clr_white: #ffffff !important;
+  --color-bg_white_1: #e3e3e3 !important;
+  --color-clr_nav: #50515c !important;
+  --color-bg_black: #1e1e1e !important;
+  --color-clr_orange: #fe5000 !important;
+  --color-clr_input: #404040 !important;
+}
+
+.clr_black {
+  color: var(--color-clr_black) !important;
+}
+
+.clr_white {
+  color: var(--color-clr_white) !important;
+}
+
+.bg_white_1 {
+  background-color: var(--color-bg_white_1) !important;
+}
+
+.clr_nav {
+  color: var(--color-clr_nav) !important;
+}
+
+.clr_grey {
+  color: var(--color-clr_grey) !important;
+}
+
+.bg_black {
+  background-color: var(--color-bg_black) !important;
+}
+
+.bg_light_black {
+  background-color: var(--color-bg_light_black);
+}
+
+.clr_orange {
+  color: var(--color-clr_orange) !important;
+}
+
+.clr_imput {
+  color: var(--color-clr_input) !important;
+}
+
+/* font_size */
+
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+/* font-weight */
+.fw_400 {
+  font-weight: 400;
+}
+
+.fw_500 {
+  font-weight: 500;
+}
+
+.fw_700 {
+  font-weight: 700 !important;
+}
+
+.fw_900 {
+  font-weight: 900 !important;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --fs-5xl: 100px;
+    --fs-4xl: 60px;
+    --fs-3xl: 50px;
+    --fs-2xl: 45px;
+    --fs-xl: 40px;
+    --fs-lg: 35px;
+    --fs-md: 32px;
+    --fs-sm: 30px;
+    --fs-xsm: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 992px) {
+  :root {
+    --fs-5xl: 100px;
+    --fs-4xl: 60px;
+    --fs-3xl: 50px;
+    --fs-2xl: 45px;
+    --fs-xl: 40px;
+    --fs-lg: 35px;
+    --fs-md: 32px;
+    --fs-sm: 30px;
+    --fs-xsm: 20px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --fs-5xl: 100px;
+    --fs-4xl: 60px;
+    --fs-3xl: 50px;
+    --fs-2xl: 45px;
+    --fs-xl: 40px;
+    --fs-lg: 35px;
+    --fs-md: 32px;
+    --fs-sm: 30px;
+    --fs-xsm: 20px;
+  }
+}
+
+@media (min-width: 1330px) {
+  :root {
+    --fs-5xl: 100px;
+    --fs-4xl: 60px;
+    --fs-3xl: 50px;
+    --fs-2xl: 45px;
+    --fs-xl: 40px;
+    --fs-lg: 35px;
+    --fs-md: 32px;
+    --fs-sm: 30px;
+    --fs-xsm: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    --fs-5xl: 100px;
+    --fs-4xl: 60px;
+    --fs-3xl: 50px;
+    --fs-2xl: 45px;
+    --fs-xl: 40px;
+    --fs-lg: 35px;
+    --fs-md: 32px;
+    --fs-sm: 30px;
+    --fs-xsm: 20px;
   }
 }
