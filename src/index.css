@@ -147,6 +147,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+/* footer */
+.footer_bg{
+    background-image: url(../src/assets/img/png/footer_bg.png);
+    background-size: cover;
+}
 /* responsive */
 @media (max-width: 1700px) {
   .slider_clr_container {
