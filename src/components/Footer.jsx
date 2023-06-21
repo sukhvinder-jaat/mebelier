@@ -36,13 +36,13 @@ const Footer = () => {
               </li>
               <li className="pt-5">
                 <a
-                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
+                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic text-nowrap"
                   href="tel:9812438052"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                   data-aos-delay="600"
                 >
-                  <span className="pe-4">
+                  <span className="pe-sm-4">
                     <img src={phone} alt="phone" />
                   </span>
                   +7 747 274 22 60
@@ -50,13 +50,13 @@ const Footer = () => {
               </li>
               <li className="pt-5">
                 <a
-                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
+                  className="mb-0 d-flex text-nowrap align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="tel:9812438052"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                   data-aos-delay="900"
                 >
-                  <span className="pe-4">
+                  <span className="pe-sm-4">
                     <img src={phone} alt="phone" />
                   </span>
                   +7 747 274 22 60
