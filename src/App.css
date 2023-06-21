@@ -31,11 +31,13 @@
   --fs-sm: 30px;
   --fs-xsm: 20px;
   --color-clr_black: #000000 !important;
+  --color-clr_white: #FFFFFF !important;
+  --color-clr_white_1: #F5EFEF !important;
   --color-clr_white: #f5efef !important;
   --color-bg_white_1: #e3e3e3;
   --color-clr_light_black: #181818 !important;
   --color-bg_black: #1e1e1e;
-  --color-clr_orange: #fe5000;
+  --color-clr_grey: #606060 !important;
   --color-clr_input: #404040;
 }
 
@@ -50,8 +52,8 @@
   background-color: var(--color-clr_white) !important;
 }
 
-.bg_white_1 {
-  background-color: var(--color-bg_white_1) !important;
+.clr_white_1 {
+color: var(--color-clr_white_1) !important;
 }
 
 .clr_light_black {
@@ -70,8 +72,8 @@
   background-color: var(--color-clr_light_black);
 }
 
-.clr_orange {
-  color: var(--color-clr_orange) !important;
+.clr_grey {
+  color: var(--color-clr_grey) !important;
 }
 
 .clr_imput {
@@ -144,6 +146,7 @@
     --fs-xsm: 20px;
   }
 }
+
 @media (min-width: 768px) {
   :root {
     --fs-5xl: 80px;

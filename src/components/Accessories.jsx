@@ -1,12 +1,19 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import eccessories from "../assets/img/png/eccessories.png";
+import blum from "../assets/img/videos/blum.mp4";
 const Accessories = () => {
   return (
     <section className="py-5 max_w_1920">
       <Row className="flex-column-reverse flex-lg-row">
         <Col lg={6} className="pe-lg-5">
-          <img className="w-100" src={eccessories} alt="eccessories" />
+          <video
+            muted
+            autoPlay={"autoplay"}
+            preload="auto"
+            loop
+            className="w-100 pe-lg-4"
+            src={blum}
+          ></video>
         </Col>
         <Col
           lg={6}
@@ -15,7 +22,7 @@ const Accessories = () => {
           <p className="fw_400 ff_forum fs_4xl clr_black text-uppercase">
             ФУРНИТУРА
           </p>
-          <p className="fw_400 ff_Montserrat fs_md clr_light_black max_w_400">
+          <p className="fw_400 ff_Montserrat fs_md clr_light_black max_w_830">
             В своих изделиях мы используем исключительно качественную
             европейскую фурнитуру Blum и Hettich.
           </p>

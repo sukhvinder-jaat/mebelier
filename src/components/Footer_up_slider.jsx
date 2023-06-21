@@ -17,7 +17,7 @@ export const Footer_up_slider = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className="py-5">
+    <div className="py-5 my-5">
       <div className="slider_container">
         <p className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start">
           ОСТАВЬТЕ
@@ -96,6 +96,9 @@ export const Footer_up_slider = () => {
             </p>
           </Col>
         </Slider>
+      </div>
+      <div className=" text-center mt-5">
+        <button className="fw_400 fs_4xl ff_Montserrat clr_black our_btn bg-transparent btn_hover">ОСТАВИТЬ ОТЗЫВ</button>
       </div>
     </div>
   );
