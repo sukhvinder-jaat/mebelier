@@ -10,7 +10,7 @@ const Functional = () => {
           className="text-start align-items-start d-flex flex-column justify-content-center ps-lg-5 ps-4"
         >
           <p className="fw_400 ff_forum fs_4xl clr_black">ФУНКЦИОНАЛ</p>
-          <p className="fw_400 ff_Montserrat fs_md clr_black max_w_435">
+          <p className="fw_400 ff_Montserrat fs_md clr_black max_w_855">
             Отличительная особенность продуманной мебели - хорошая
             функциональность. В вашей мебели будут установлены
             высококачественные системы хранения, а внутреннее пространство будет

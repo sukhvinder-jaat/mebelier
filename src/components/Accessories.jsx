@@ -22,7 +22,7 @@ const Accessories = () => {
           <p className="fw_400 ff_forum fs_4xl clr_black text-uppercase">
             ФУРНИТУРА
           </p>
-          <p className="fw_400 ff_Montserrat fs_md clr_light_black max_w_400">
+          <p className="fw_400 ff_Montserrat fs_md clr_light_black max_w_830">
             В своих изделиях мы используем исключительно качественную
             европейскую фурнитуру Blum и Hettich.
           </p>

@@ -19,6 +19,8 @@ import BackToTop from "./components/BackToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { TwoSlider } from "./components/TwoSlider";
+import { CountSlider } from "./components/CountSlider";
 function App() {
   useEffect(() => {
     AOS.init({ once: true, disable: "mobile" });
@@ -33,6 +35,7 @@ function App() {
       <Materials />
       <Accessories />
       <Factory />
+      <CountSlider />
       <BetweenSection />
       <Footer_up_slider />
       <Footer />

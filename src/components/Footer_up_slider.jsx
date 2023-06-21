@@ -14,42 +14,6 @@ export const Footer_up_slider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // responsive: [
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 1.5,
-    //       centerMode: true,
-    //       centerPadding: 60,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 576,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //       dots: false,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 450,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       centerMode: false,
-    //       dots: false,
-    //       //   centerPadding: 60,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
   };
   const buttons = React.useRef();
   return (
@@ -86,7 +50,7 @@ export const Footer_up_slider = () => {
           />
         </span>
 
-        <Slider {...slider_2} ref={buttons} className="clr_slider px-5">
+        <Slider {...slider_2} ref={buttons} className="clr_slider px-2">
           <Col
             xs={12}
             className=" d-flex flex-column align-items-center py-lg-5 py-2"
