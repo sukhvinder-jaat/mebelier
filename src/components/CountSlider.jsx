@@ -63,13 +63,13 @@ export const CountSlider = () => {
             <div className="d-flex justify-content-end align-items-center mt-5">
               <span
                 className="bg_white p-lg-3 p-sm-2 p-1 pointer"
-                onClick={() => buttons.current.slickNext()}
+                onClick={() => buttons.current.slickPrev()}
               >
                 <img src={arrow_left} alt="arrow_left" className="w-100" />
               </span>
               <span
                 className="bg_white p-lg-3 p-sm-2 p-1 border_left_btn pointer"
-                onClick={() => buttons.current.slickPrev()}
+                onClick={() => buttons.current.slickNext()}
               >
                 <img src={arrow_right} alt="arrow_left" className="w-100" />
               </span>
