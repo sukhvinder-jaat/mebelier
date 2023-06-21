@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import functionality from "../assets/img/png/functionality.png";
+import window from "../assets/img/webp/window.webp";
 const Functional = () => {
   return (
     <section className="py-5 my-5 max_w_1920">
@@ -18,7 +18,7 @@ const Functional = () => {
           </p>
         </Col>
         <Col lg={6} className="ps-lg-5">
-          <img className="w-100" src={functionality} alt="functionality" />
+          <img className="w-100" src={window} alt="window" />
         </Col>
       </Row>
     </section>

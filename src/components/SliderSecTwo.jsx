@@ -5,6 +5,11 @@ import slider_img_2 from "../assets/img/png/slider_2_2.png";
 import arrow_left from "../assets/img/svg/slider_2_arroe_left.svg";
 import arrow_right from "../assets/img/svg/slider_2_arrow_right.svg";
 import slider_3 from "../assets/img/png/slider_2_3.png";
+import slider_img_4 from "../assets/img/webp/slider_img_4.webp";
+import slider_img_5 from "../assets/img/webp/slider_img_5.webp";
+import slider_img_6 from "../assets/img/webp/slider_img_6.webp";
+import slider_img_7 from "../assets/img/webp/slider_img_7.webp";
+import slider_img_8 from "../assets/img/webp/slider_img_8.webp";
 // import { Slider } from "slider";
 import Slider from "react-slick";
 export const SliderSecTwo = () => {
@@ -96,17 +101,27 @@ export const SliderSecTwo = () => {
           </Col>
           <Col xs={4} className="px-2 hover15 overflow-hidden">
             <span>
-              <img src={slider_1} alt="slider_1" className="w-100" />
+              <img src={slider_img_4} alt="slider_img_4" className="w-100" />
             </span>
           </Col>
           <Col xs={4} className="px-2 hover15 overflow-hidden">
             <span>
-              <img src={slider_img_2} alt="slider_img_2" className="w-100" />
+              <img src={slider_img_5} alt="slider_img_5" className="w-100" />
             </span>
           </Col>
           <Col xs={4} className="px-2 hover15 overflow-hidden ">
             <span>
-              <img src={slider_3} alt="slider_1" className="w-100" />
+              <img src={slider_img_6} alt="slider_img_6" className="w-100" />
+            </span>
+          </Col>
+          <Col xs={4} className="px-2 hover15 overflow-hidden ">
+            <span>
+              <img src={slider_img_7} alt="slider_img_7" className="w-100" />
+            </span>
+          </Col>
+          <Col xs={4} className="px-2 hover15 overflow-hidden ">
+            <span>
+              <img src={slider_img_8} alt="slider_img_8" className="w-100" />
             </span>
           </Col>
         </Slider>

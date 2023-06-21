@@ -1,5 +1,5 @@
 import React from "react";
-import biggest_img from "../assets/img/png/biggest_img.png";
+import partnerss from "../assets/img/videos/partnerss.mp4";
 export const BetweenSection = () => {
   return (
     <div className="py-lg-5 py-4 overflow-hidden mb-xl-5">
@@ -11,7 +11,14 @@ export const BetweenSection = () => {
           ПАРТНЕРЫ
         </p>
         <span>
-          <img src={biggest_img} alt="biggest_img" className="w-100" />
+          <video
+            muted
+            autoPlay={"autoplay"}
+            preload="auto"
+            loop
+            className="w-100 pe-lg-4"
+            src={partnerss}
+          ></video>
         </span>
       </div>
     </div>

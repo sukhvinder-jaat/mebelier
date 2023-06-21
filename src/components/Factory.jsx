@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import map from "../assets/img/png/map.png";
+import map from "../assets/img/webp/map.webp";
 const Factory = () => {
   return (
     <section className="py-5 my-5 max_w_1920">

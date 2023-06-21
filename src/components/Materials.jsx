@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import materials from "../assets/img/png/materials.png";
+import furniture from "../assets/img/videos/furniture.mp4";
 const Materials = () => {
   return (
     <section className="py-5 my-5 max_w_1920">
@@ -18,7 +18,14 @@ const Materials = () => {
           </p>
         </Col>
         <Col lg={6} className="ps-lg-5">
-          <img className="w-100" src={materials} alt="materials" />
+          <video
+            muted
+            autoPlay={"autoplay"}
+            preload="auto"
+            loop
+            className="w-100 pe-lg-4"
+            src={furniture}
+          ></video>
         </Col>
       </Row>
     </section>

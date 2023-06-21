@@ -1,12 +1,19 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import bce from "../assets/img/png/bce.png";
+import washfashion from "../assets/img/videos/washfashion.mp4";
 const Bce = () => {
   return (
     <section className="py-5 max_w_1920">
       <Row className="flex-column-reverse flex-lg-row">
         <Col lg={6} className="pe-lg-5">
-          <img className="w-100" src={bce} alt="bce" />
+          <video
+            muted
+            autoPlay={"autoplay"}
+            preload="auto"
+            loop
+            className="w-100 pe-lg-4"
+            src={washfashion}
+          ></video>
         </Col>
         <Col
           lg={6}
@@ -18,7 +25,9 @@ const Bce = () => {
           <p className="fw_400 ff_Montserrat fs_md clr_light_black max_w_250">
             Получите консультацию прямо сейчас
           </p>
-          <button className="fw_400 ff_Montserrat fs_sm clr_black text-uppercase bce_btn mt-5">ОСтавить контакты</button>
+          <button className="fw_400 ff_Montserrat fs_sm clr_black text-uppercase bce_btn mt-5 btn_hover">
+            ОСтавить контакты
+          </button>
         </Col>
       </Row>
     </section>

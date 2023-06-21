@@ -53,7 +53,7 @@ export const Footer_up_slider = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className="py-5">
+    <div className="py-5 my-5">
       <div className="slider_container">
         <p className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start">
           ОСТАВЬТЕ
@@ -86,10 +86,17 @@ export const Footer_up_slider = () => {
           />
         </span>
 
-        <Slider {...slider_2} ref={buttons} className="clr_slider px-2">
-          <Col xs={12} className=" d-flex flex-column align-items-center py-lg-5 py-2">
+        <Slider {...slider_2} ref={buttons} className="clr_slider px-5">
+          <Col
+            xs={12}
+            className=" d-flex flex-column align-items-center py-lg-5 py-2"
+          >
             <span className=" d-flex justify-content-center">
-              <img src={top_comma} alt="top_comma" className="img_custom_w_slider" />
+              <img
+                src={top_comma}
+                alt="top_comma"
+                className="img_custom_w_slider"
+              />
             </span>
             <p className=" ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
               Вчера все доставли и выполнили работу отлично. Спасибо, Умар. Вы
@@ -102,9 +109,16 @@ export const Footer_up_slider = () => {
               +7 778 *** ** 64
             </p>
           </Col>
-          <Col xs={12} className=" d-flex flex-column align-items-center py-lg-5 py-2">
+          <Col
+            xs={12}
+            className=" d-flex flex-column align-items-center py-lg-5 py-2"
+          >
             <span className=" d-flex justify-content-center">
-              <img src={top_comma} alt="top_comma" className="img_custom_w_slider" />
+              <img
+                src={top_comma}
+                alt="top_comma"
+                className="img_custom_w_slider"
+              />
             </span>
             <p className=" ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
               Вчера все доставли и выполнили работу отлично. Спасибо, Умар. Вы
@@ -118,6 +132,9 @@ export const Footer_up_slider = () => {
             </p>
           </Col>
         </Slider>
+      </div>
+      <div className=" text-center mt-5">
+        <button className="fw_400 fs_4xl ff_Montserrat clr_black our_btn bg-transparent btn_hover">ОСТАВИТЬ ОТЗЫВ</button>
       </div>
     </div>
   );
