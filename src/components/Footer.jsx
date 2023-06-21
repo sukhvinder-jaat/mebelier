@@ -11,7 +11,7 @@ import pin from "../assets/img/svg/pin.svg";
 
 const Footer = () => {
   return (
-    <section className="footer_bg py-5">
+    <section className="footer_back bg -black py-5">
       <div className="footer_container">
         <Row>
           <Col xxl={5} className="pe-xl-5">

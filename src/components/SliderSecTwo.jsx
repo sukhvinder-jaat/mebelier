@@ -10,7 +10,6 @@ import slider_img_5 from "../assets/img/webp/slider_img_5.webp";
 import slider_img_6 from "../assets/img/webp/slider_img_6.webp";
 import slider_img_7 from "../assets/img/webp/slider_img_7.webp";
 import slider_img_8 from "../assets/img/webp/slider_img_8.webp";
-// import { Slider } from "slider";
 import Slider from "react-slick";
 export const SliderSecTwo = () => {
   var slider_2 = {
@@ -53,7 +52,6 @@ export const SliderSecTwo = () => {
           slidesToShow: 1,
           centerMode: false,
           dots: false,
-          //   centerPadding: 60,
           slidesToScroll: 1,
         },
       },
@@ -61,7 +59,7 @@ export const SliderSecTwo = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className=" py-5">
+    <div className="py-5">
       <div className="slider_container position-relative shadow_right">
         <span
           className="position-absolute z-3 top-50 start-0 translate-middle-y d-xl-flex d-none justify-content-center align-items-center"

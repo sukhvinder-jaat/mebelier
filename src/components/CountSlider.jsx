@@ -20,7 +20,7 @@ export const CountSlider = () => {
     slidesToScroll: 1,
     customPaging: function (i) {
       return (
-        <p className=" ff_Montserrat text-end fw_700 fs_3xl text-uppercase clr_light_black mb-0 pt-4 ps-3 position-absolute count_location">
+        <p className="ff_Montserrat text-end fw_700 fs_3xl text-uppercase clr_light_black mb-0 pt-4 ps-3 position-absolute count_location">
           <span className="fs_5xl">0{i + 1} </span> /06
         </p>
       );
@@ -46,30 +46,8 @@ export const CountSlider = () => {
         >
           РАБОТАЕМ?
         </p>
-        <div className=" pe-5">
-          {/* <ul className="slick-dots">
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>01</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>02</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>03</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>04</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>05</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>06</a>
-            </li>
-          </ul> */}
-        </div>
       </div>
-      <div className=" max_w_1920 mlra">
+      <div className="max_w_1920 mlra">
         <Row className="flex_reverse_1500">
           <Col
             xs={5}
@@ -100,7 +78,7 @@ export const CountSlider = () => {
                   data-aos-duration="2000"
                   data-aos-delay="300"
                 >
-                  <a href="">
+                  <a href="https://api.whatsapp.com/send?phone=77472742260">
                     <img src={chat} alt="chat" className="w-75" />
                   </a>
                 </span>
@@ -110,7 +88,7 @@ export const CountSlider = () => {
                   data-aos-duration="3000"
                   data-aos-delay="600"
                 >
-                  <a href="">
+                  <a href="https://www.instagram.com/mebelier_almaty/">
                     <img src={insta} alt="insta" className="w-75" />
                   </a>
                 </span>
@@ -129,13 +107,13 @@ export const CountSlider = () => {
             <div className="d-flex justify-content-end align-items-center mt-5">
               <span
                 className="bg_white p-lg-3 p-sm-2 p-1 pointer"
-                onClick={() => buttons.current.slickNext()}
+                onClick={() => buttons.current.slickPrev()}
               >
                 <img src={arrow_left} alt="arrow_left" className="w-100" />
               </span>
               <span
                 className="bg_white p-lg-3 p-sm-2 p-1 border_left_btn pointer"
-                onClick={() => buttons.current.slickPrev()}
+                onClick={() => buttons.current.slickNext()}
               >
                 <img src={arrow_right} alt="arrow_left" className="w-100" />
               </span>

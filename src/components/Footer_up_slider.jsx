@@ -63,20 +63,20 @@ export const Footer_up_slider = () => {
         <Slider {...slider_2} ref={buttons} className="clr_slider px-2">
           <Col
             xs={12}
-            className=" d-flex flex-column align-items-center py-lg-5 py-2"
+            className="d-flex flex-column align-items-center py-lg-5 py-2"
           >
-            <span className=" d-flex justify-content-center">
+            <span className="d-flex justify-content-center">
               <img
                 src={top_comma}
                 alt="top_comma"
                 className="img_custom_w_slider"
               />
             </span>
-            <p className=" ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
+            <p className="ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
               Вчера все доставли и выполнили работу отлично. Спасибо, Умар. Вы
-              <span className=" d-xxl-block">отличный продавец.</span>
+              <span className="d-xxl-block">отличный продавец.</span>
             </p>
-            <p className=" fw_700 ff_Montserrat text-black fs_4xl mb-0">
+            <p className="fw_700 ff_Montserrat text-black fs_4xl mb-0">
               АЛЕКСАНДР
             </p>
             <a
@@ -88,20 +88,20 @@ export const Footer_up_slider = () => {
           </Col>
           <Col
             xs={12}
-            className=" d-flex flex-column align-items-center py-lg-5 py-2"
+            className="d-flex flex-column align-items-center py-lg-5 py-2"
           >
-            <span className=" d-flex justify-content-center">
+            <span className="d-flex justify-content-center">
               <img
                 src={top_comma}
                 alt="top_comma"
                 className="img_custom_w_slider"
               />
             </span>
-            <p className=" ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
+            <p className="ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
               Вчера все доставли и выполнили работу отлично. Спасибо, Умар. Вы
-              <span className=" d-xxl-block">отличный продавец.</span>
+              <span className="d-xxl-block">отличный продавец.</span>
             </p>
-            <p className=" fw_700 ff_Montserrat text-black fs_4xl mb-0">
+            <p className="fw_700 ff_Montserrat text-black fs_4xl mb-0">
               АЛЕКСАНДР
             </p>
             <a
