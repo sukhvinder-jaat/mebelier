@@ -14,42 +14,6 @@ export const Footer_up_slider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // responsive: [
-    //   {
-    //     breakpoint: 768,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 600,
-    //     settings: {
-    //       slidesToShow: 1.5,
-    //       centerMode: true,
-    //       centerPadding: 60,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 576,
-    //     settings: {
-    //       slidesToShow: 2,
-    //       slidesToScroll: 1,
-    //       dots: false,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 450,
-    //     settings: {
-    //       slidesToShow: 1,
-    //       centerMode: false,
-    //       dots: false,
-    //       //   centerPadding: 60,
-    //       slidesToScroll: 1,
-    //     },
-    //   },
-    // ],
   };
   const buttons = React.useRef();
   return (
@@ -87,9 +51,16 @@ export const Footer_up_slider = () => {
         </span>
 
         <Slider {...slider_2} ref={buttons} className="clr_slider px-2">
-          <Col xs={12} className=" d-flex flex-column align-items-center py-lg-5 py-2">
+          <Col
+            xs={12}
+            className=" d-flex flex-column align-items-center py-lg-5 py-2"
+          >
             <span className=" d-flex justify-content-center">
-              <img src={top_comma} alt="top_comma" className="img_custom_w_slider" />
+              <img
+                src={top_comma}
+                alt="top_comma"
+                className="img_custom_w_slider"
+              />
             </span>
             <p className=" ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
               Вчера все доставли и выполнили работу отлично. Спасибо, Умар. Вы
@@ -102,9 +73,16 @@ export const Footer_up_slider = () => {
               +7 778 *** ** 64
             </p>
           </Col>
-          <Col xs={12} className=" d-flex flex-column align-items-center py-lg-5 py-2">
+          <Col
+            xs={12}
+            className=" d-flex flex-column align-items-center py-lg-5 py-2"
+          >
             <span className=" d-flex justify-content-center">
-              <img src={top_comma} alt="top_comma" className="img_custom_w_slider" />
+              <img
+                src={top_comma}
+                alt="top_comma"
+                className="img_custom_w_slider"
+              />
             </span>
             <p className=" ff_forum fw_400 text-black fs_3xl text-center lh-sm pt-3 pb-lg-4 pb-0">
               Вчера все доставли и выполнили работу отлично. Спасибо, Умар. Вы

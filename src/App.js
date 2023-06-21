@@ -13,6 +13,8 @@ import Factory from "./components/Factory";
 import Footer from "./components/Footer";
 import { Footer_up_slider } from "./components/Footer_up_slider";
 import { BetweenSection } from "./components/BetweenSection";
+import { TwoSlider } from "./components/TwoSlider";
+import { CountSlider } from "./components/CountSlider";
 function App() {
   return (
     <div className="App overflow-hidden">
@@ -23,7 +25,8 @@ function App() {
       <Materials />
       <Accessories />
       <Factory />
-      <BetweenSection/>
+      <CountSlider />
+      <BetweenSection />
       <Footer_up_slider />
       <Footer />
     </div>
