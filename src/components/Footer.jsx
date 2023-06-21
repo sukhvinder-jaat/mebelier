@@ -12,7 +12,7 @@ import pin from "../assets/img/svg/pin.svg";
 const Footer = () => {
   return (
     <section className="footer_back bg -black py-5">
-      <div className="footer_container">
+      <div className="footer_container py-5">
         <Row>
           <Col xxl={5} className="pe-xl-5">
             <img
@@ -133,7 +133,7 @@ const Footer = () => {
           </Col>
         </Row>
         <div
-          className="d-flex flex-column flex-xl-row align-items-center justify-content-end input_box mt-5"
+          className="d-flex flex-column flex-xl-row align-items-center justify-content-end input_box mt-5 mb-xxl-5"
           data-aos="fade-up"
           data-aos-duration="3000"
           data-aos-delay="600"

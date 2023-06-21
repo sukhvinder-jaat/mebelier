@@ -22,7 +22,7 @@ const Bce = () => {
         </Col>
         <Col
           lg={6}
-          className="text-center align-items-center d-flex flex-column  justify-content-center pe-lg-5 ps-4"
+          className="text-center align-items-center d-flex flex-column  justify-content-center pb-4 pb-lg-0 pe-lg-5 ps-4"
         >
           <p
             className="fw_400 ff_forum fs_4xl clr_black text-uppercase"

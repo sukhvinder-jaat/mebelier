@@ -30,7 +30,7 @@ const Hero = () => {
               first ? "" : "showw ps-0"
             }`}
           >
-            <li onClick={() => setFirst(true)}>
+            <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
                 href="#"
@@ -38,7 +38,7 @@ const Hero = () => {
                 ПОРТФОЛИО
               </a>
             </li>
-            <li onClick={() => setFirst(true)}>
+            <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
                 href="#"
@@ -46,7 +46,7 @@ const Hero = () => {
                 уСЛУГИ
               </a>
             </li>
-            <li onClick={() => setFirst(true)}>
+            <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
                 href="#"
@@ -54,7 +54,7 @@ const Hero = () => {
                 оТЗЫВЫ
               </a>
             </li>
-            <li onClick={() => setFirst(true)}>
+            <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
                 href="#"
@@ -62,7 +62,7 @@ const Hero = () => {
                 кОНТАКТЫ
               </a>
             </li>
-            <li onClick={() => setFirst(true)}>
+            <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_Montserrat fs_xsm fst-italic clr_grey d-xxl-none d-block"
                 href="tel:9812438052"
@@ -70,7 +70,7 @@ const Hero = () => {
                 +7 747 274 22 60
               </a>
             </li>
-            <li onClick={() => setFirst(true)}>
+            <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_Montserrat fs_xsm fst-italic clr_grey d-xxl-none d-block"
                 href="tel:9812438052"
@@ -82,13 +82,13 @@ const Hero = () => {
           <div className="d-flex align-items-center">
             <span className="d-flex flex-column pe-md-5 me-md-5">
               <a
-                className="fw_400 ff_Montserrat fs_xsm fst-italic clr_grey d-none d-xxl-block"
+                className="fw_400 position-relative hover_line_black ff_Montserrat fs_xsm fst-italic clr_grey d-none d-xxl-block"
                 href="tel:9812438052"
               >
                 +7 747 274 22 60
               </a>
               <a
-                className="fw_400 ff_Montserrat fs_xsm fst-italic clr_grey d-none d-xxl-block"
+                className="fw_400 position-relative hover_line_black ff_Montserrat fs_xsm fst-italic clr_grey d-none d-xxl-block"
                 href="tel:9812438052"
               >
                 +7 727 327 73 27

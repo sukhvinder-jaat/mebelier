@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import furniture from "../assets/img/videos/furniture.mp4";
 const Materials = () => {
   return (
-    <section className="py-5 my-5 max_w_1920">
+    <section className="py-5 my-xl-5 max_w_1920">
       <Row>
         <Col
           lg={6}
