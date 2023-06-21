@@ -4,10 +4,20 @@ export const BetweenSection = () => {
   return (
     <div className="py-lg-5 py-4 overflow-hidden mb-xl-5">
       <div className="mx_1920 mlra pb-xxl-5">
-        <p className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-end">
+        <p
+          className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-end"
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          data-aos-delay="600"
+        >
           НАШИ
         </p>
-        <p className=" ff_Montserrat fs_5xl text-black fw_700 text-end">
+        <p
+          className=" ff_Montserrat fs_5xl text-black fw_700 text-end"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-delay="600"
+        >
           ПАРТНЕРЫ
         </p>
         <span>
@@ -16,7 +26,10 @@ export const BetweenSection = () => {
             autoPlay={"autoplay"}
             preload="auto"
             loop
-            className="w-100 pe-lg-4"
+            className="w-100"
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="900"
             src={partnerss}
           ></video>
         </span>

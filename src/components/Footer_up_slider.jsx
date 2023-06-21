@@ -19,10 +19,20 @@ export const Footer_up_slider = () => {
   return (
     <div className="py-5 my-5">
       <div className="slider_container">
-        <p className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start">
+        <p
+          className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="600"
+        >
           ОСТАВЬТЕ
         </p>
-        <p className=" ff_Montserrat fs_5xl text-black fw_700 text-start">
+        <p
+          className=" ff_Montserrat fs_5xl text-black fw_700 text-start"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          data-aos-delay="600"
+        >
           СВОЙ ОТЗЫВ
         </p>
       </div>
@@ -69,9 +79,12 @@ export const Footer_up_slider = () => {
             <p className=" fw_700 ff_Montserrat text-black fs_4xl mb-0">
               АЛЕКСАНДР
             </p>
-            <p className=" ff_forum fw_400 fs_2xl text-black mb-0">
+            <a
+              className="ff_forum fw_400 fs_2xl text-black mb-0"
+              href="tel:+7 778 *** ** 64"
+            >
               +7 778 *** ** 64
-            </p>
+            </a>
           </Col>
           <Col
             xs={12}
@@ -91,14 +104,24 @@ export const Footer_up_slider = () => {
             <p className=" fw_700 ff_Montserrat text-black fs_4xl mb-0">
               АЛЕКСАНДР
             </p>
-            <p className=" ff_forum fw_400 fs_2xl text-black mb-0">
+            <a
+              className="ff_forum fw_400 fs_2xl text-black mb-0"
+              href="tel:+7 778 *** ** 64"
+            >
               +7 778 *** ** 64
-            </p>
+            </a>
           </Col>
         </Slider>
       </div>
-      <div className=" text-center mt-5">
-        <button className="fw_400 fs_4xl ff_Montserrat clr_black our_btn bg-transparent btn_hover">ОСТАВИТЬ ОТЗЫВ</button>
+      <div
+        className="text-center mt-5"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-delay="600"
+      >
+        <button className="fw_400 fs_4xl ff_Montserrat clr_black our_btn bg-transparent btn_hover">
+          ОСТАВИТЬ ОТЗЫВ
+        </button>
       </div>
     </div>
   );

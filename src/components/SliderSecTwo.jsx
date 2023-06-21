@@ -84,42 +84,90 @@ export const SliderSecTwo = () => {
           />
         </span>
         <Slider {...slider_2} ref={buttons} id="demo15">
-          <Col xs={4} className="px-2 hover15 overflow-hidden">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="300"
+          >
             <span>
               <img src={slider_1} alt="slider_1" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="600"
+          >
             <span>
               <img src={slider_img_2} alt="slider_img_2" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="900"
+          >
             <span>
               <img src={slider_3} alt="slider_1" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1200"
+          >
             <span>
               <img src={slider_img_4} alt="slider_img_4" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1500"
+          >
             <span>
               <img src={slider_img_5} alt="slider_img_5" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden ">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="1800"
+          >
             <span>
               <img src={slider_img_6} alt="slider_img_6" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden ">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="2100"
+          >
             <span>
               <img src={slider_img_7} alt="slider_img_7" className="w-100" />
             </span>
           </Col>
-          <Col xs={4} className="px-2 hover15 overflow-hidden ">
+          <Col
+            xs={4}
+            className="px-2 hover15 overflow-hidden"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="2400"
+          >
             <span>
               <img src={slider_img_8} alt="slider_img_8" className="w-100" />
             </span>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import footer_logo from "../assets/img/png/footer_logo.png";
+import footer_logo from "../assets/img/svg/hero_logo.svg";
 import phone from "../assets/img/png/phone.svg";
 import footer_map from "../assets/img/png/footer_map.png";
 import whatsap_2 from "../assets/img/svg/whatsap_2.svg";
@@ -15,10 +15,22 @@ const Footer = () => {
       <div className="footer_container">
         <Row>
           <Col xxl={5} className="pe-xl-5">
-            <img className="w-100" src={footer_logo} alt="footer_logo" />
+            <img
+              className="w-100"
+              data-aos="fade-down"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+              src={footer_logo}
+              alt="footer_logo"
+            />
             <ul className="ps-0 mt-5 pt-5">
               <li>
-                <p className="fw_700 ff_Montserrat fs_xl clr_white ms-5 ps-4">
+                <p
+                  className="fw_700 ff_Montserrat fs_xl clr_white ms-5 ps-4"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                  data-aos-delay="300"
+                >
                   НАШИ КОНТАКТЫ
                 </p>
               </li>
@@ -26,6 +38,9 @@ const Footer = () => {
                 <a
                   className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="tel:9812438052"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                  data-aos-delay="600"
                 >
                   <span className="pe-4">
                     <img src={phone} alt="phone" />
@@ -37,6 +52,9 @@ const Footer = () => {
                 <a
                   className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="tel:9812438052"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                  data-aos-delay="900"
                 >
                   <span className="pe-4">
                     <img src={phone} alt="phone" />
@@ -48,6 +66,9 @@ const Footer = () => {
                 <a
                   className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="mailto:mebelier_almaty@inbox.ru"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                  data-aos-delay="1200"
                 >
                   <span className="pe-4">
                     <img src={email} alt="email" />
@@ -59,6 +80,9 @@ const Footer = () => {
                 <a
                   className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="#"
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                  data-aos-delay="1500"
                 >
                   <span className="pe-4">
                     <img src={pin} alt="pin" />
@@ -76,12 +100,18 @@ const Footer = () => {
             <span className="d-flex gap-xl-5 pt-5">
               <a
                 className="insta_hover"
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+                data-aos-delay="300"
                 href="https://www.instagram.com/mebelier_almaty/"
               >
                 <img src={instagram_2} alt="instagram_2" />
               </a>
               <a
                 className="insta_hover"
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+                data-aos-delay="600"
                 href="https://api.whatsapp.com/send?phone=77472742260"
               >
                 <img
@@ -90,13 +120,24 @@ const Footer = () => {
                   alt="whatsap_2"
                 />
               </a>
-              <a className="insta_hover" href="#">
+              <a
+                className="insta_hover"
+                data-aos="zoom-in"
+                data-aos-duration="3000"
+                data-aos-delay="900"
+                href="#"
+              >
                 <img src={home_2} alt="home_2" />
               </a>
             </span>
           </Col>
         </Row>
-        <div className="d-flex flex-column flex-xl-row align-items-center justify-content-end input_box mt-5">
+        <div
+          className="d-flex flex-column flex-xl-row align-items-center justify-content-end input_box mt-5"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          data-aos-delay="600"
+        >
           <p className="fw_700 ff_Montserrat fs_xl clr_white_1 mb-0">
             НАПИСАТЬ НАМ
           </p>
