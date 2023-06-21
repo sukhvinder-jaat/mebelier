@@ -5,7 +5,11 @@ import phone from "../assets/img/png/phone.svg";
 
 const Footer = () => {
   return (
+<<<<<<< HEAD
+    <section className="footer_back bg -black py-5">
+=======
     <section className="footer_bg py-5">
+>>>>>>> ea258fe057baf060db7fcd5d377ba2369d386c9e
       <div className="footer_container">
         <Row>
           <Col lg={5}>
