@@ -31,8 +31,8 @@
   --fs-sm: 30px;
   --fs-xsm: 20px;
   --color-clr_black: #000000 !important;
-  --color-clr_white: #FFFFFF !important;
-  --color-clr_white_1: #F5EFEF !important;
+  --color-clr_white: #ffffff !important;
+  --color-clr_white_1: #f5efef !important;
   --color-clr_white: #f5efef !important;
   --color-bg_white_1: #e3e3e3;
   --color-clr_light_black: #181818 !important;
@@ -53,7 +53,7 @@
 }
 
 .clr_white_1 {
-color: var(--color-clr_white_1) !important;
+  color: var(--color-clr_white_1) !important;
 }
 
 .clr_light_black {

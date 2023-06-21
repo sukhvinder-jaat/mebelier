@@ -4,7 +4,7 @@ const Loading = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("d-none");
     document.body.classList.remove("overflow-hidden");
-  },5000);
+  }, 5000);
   return (
     <div
       id="none"
@@ -12,7 +12,11 @@ const Loading = () => {
     >
       <div className="d-flex justify-content-center align-items-center min-vh-100 bg_effect">
         <span className="d-flex align-items-center pointer justify-content-center justify-content-sm-start">
-          <img className="w-100 vh-100 object-fit-cover" src={rotate} alt="rotate" />
+          <img
+            className="w-100 vh-100 object-fit-cover"
+            src={rotate}
+            alt="rotate"
+          />
         </span>
       </div>
     </div>

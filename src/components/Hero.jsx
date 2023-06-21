@@ -80,7 +80,7 @@ const Hero = () => {
             </li>
           </ul>
           <div className="d-flex align-items-center">
-            <span className=" d-flex flex-column pe-md-5 me-md-5">
+            <span className="d-flex flex-column pe-md-5 me-md-5">
               <a
                 className="fw_400 ff_Montserrat fs_xsm fst-italic clr_grey d-none d-xxl-block"
                 href="tel:9812438052"

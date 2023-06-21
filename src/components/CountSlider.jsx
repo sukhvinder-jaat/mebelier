@@ -17,7 +17,7 @@ export const CountSlider = () => {
     slidesToScroll: 1,
     customPaging: function (i) {
       return (
-        <p className=" ff_Montserrat text-end fw_700 fs_3xl text-uppercase clr_light_black mb-0 pt-4 ps-3 position-absolute count_location">
+        <p className="ff_Montserrat text-end fw_700 fs_3xl text-uppercase clr_light_black mb-0 pt-4 ps-3 position-absolute count_location">
           <span className="fs_5xl">0{i + 1} </span> /06
         </p>
       );
@@ -27,36 +27,14 @@ export const CountSlider = () => {
   return (
     <>
       <div className="max_w_1920 mlra">
-        <p className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start">
+        <p className="ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start">
           КАК МЫ
         </p>
-        <p className=" ff_Montserrat fs_5xl text-black fw_700 text-start">
+        <p className="ff_Montserrat fs_5xl text-black fw_700 text-start">
           РАБОТАЕМ?
         </p>
-        <div className=" pe-5">
-          {/* <ul className="slick-dots">
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>01</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>02</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>03</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>04</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>05</a>
-            </li>
-            <li className=" mb-0 ff_Montserrat fw_700 fs_5xl clr_light_black">
-              <a>06</a>
-            </li>
-          </ul> */}
-        </div>
       </div>
-      <div className=" max_w_1920 mlra">
+      <div className="max_w_1920 mlra">
         <Row className="flex_reverse_1500">
           <Col
             xs={5}
@@ -66,23 +44,23 @@ export const CountSlider = () => {
               <p className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3">
                 получите консультацию специалиста
               </p>
-              <p className=" text-white fw_700 ff_Montserrat fs_md lh-1">
+              <p className="text-white fw_700 ff_Montserrat fs_md lh-1">
                 Оставьте свои данные для
                 <span className="d_block_1500">обратной связи</span>
               </p>
-              <div className=" d-flex align-items-center pt-5">
-                <span className=" d-flex justify-content-center align-items-center">
+              <div className="d-flex align-items-center pt-5">
+                <span className="d-flex justify-content-center align-items-center">
                   <img src={chat} alt="chat" className="w-75" />
                 </span>
-                <span className=" d-flex justify-content-center align-items-center ms-5">
+                <span className="d-flex justify-content-center align-items-center ms-5">
                   <img src={insta} alt="insta" className="w-75" />
                 </span>
-                <span className=" d-flex justify-content-center align-items-center ms-5">
+                <span className="d-flex justify-content-center align-items-center ms-5">
                   <img src={home} alt="home" className="w-75" />
                 </span>
               </div>
             </div>
-            <div className=" d-flex justify-content-end align-items-center mt-5">
+            <div className="d-flex justify-content-end align-items-center mt-5">
               <span
                 className="bg_white p-lg-3 p-sm-2 p-1 pointer"
                 onClick={() => buttons.current.slickNext()}

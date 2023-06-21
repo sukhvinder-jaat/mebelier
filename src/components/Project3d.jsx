@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import bedroom from "../assets/img/videos/bedroom.mp4";
-
 const Project3d = () => {
   return (
     <section className="py-5 my-5 max_w_1920">

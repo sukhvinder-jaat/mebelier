@@ -19,7 +19,6 @@ import BackToTop from "./components/BackToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { TwoSlider } from "./components/TwoSlider";
 import { CountSlider } from "./components/CountSlider";
 function App() {
   useEffect(() => {
