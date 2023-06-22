@@ -29,7 +29,7 @@ export const CountSlider = () => {
   const buttons = React.useRef();
   return (
     <>
-      <div className="max_w_1920 mlra pt-5 mt-xxl-5">
+      <div className="max_w_1920 ps-sm-0 ps-3 mlra pt-5 mt-xxl-5">
         <p
           className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start pt-5 mt-xl-5"
           data-aos="fade-right"
@@ -47,13 +47,13 @@ export const CountSlider = () => {
           РАБОТАЕМ?
         </p>
       </div>
-      <div className="max_w_1920 mlra py-xl-0 py-md-5 py-3">
+      <div className="max_w_1920 mlra  py-xl-0 py-md-5 py-3">
         <Row className="flex_reverse_1500">
           <Col
             xs={5}
-            className="bg_light_black col_12_1500 tranform_small pe-0 d-flex flex-column justify-content-between"
+            className="bg_light_black col_12_1500 tranform_small pe-0 d-flex flex-column justify-content-between ps-sm-4 ps-4"
           >
-            <div className="p--md-4 p-2">
+            <div className="p-md-4 p-2">
               <p
                 className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
                 data-aos="fade-down"
