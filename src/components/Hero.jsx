@@ -33,7 +33,7 @@ const Hero = () => {
             <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
-                href="#"
+                href="#section_2"
               >
                 ПОРТФОЛИО
               </a>
@@ -41,7 +41,7 @@ const Hero = () => {
             <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
-                href="#"
+                href="#section_3d"
               >
                 уСЛУГИ
               </a>
@@ -49,7 +49,7 @@ const Hero = () => {
             <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
-                href="#"
+                href="#footer_up"
               >
                 оТЗЫВЫ
               </a>
@@ -57,7 +57,7 @@ const Hero = () => {
             <li onClick={() => setFirst(true)} className="hover_grey">
               <a
                 className="fw_400 ff_forum fs_lg clr_black text-uppercase mb-0"
-                href="#"
+                href="#footer"
               >
                 кОНТАКТЫ
               </a>

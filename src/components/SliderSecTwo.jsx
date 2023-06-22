@@ -59,7 +59,7 @@ export const SliderSecTwo = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className="py-5">
+    <div className="py-5" id="section_2">
       <div className="slider_container position-relative shadow_right pt-xl-4">
         <span
           className="position-absolute z-3 top-50 start-0 translate-middle-y d-xl-flex d-none justify-content-center align-items-center"
