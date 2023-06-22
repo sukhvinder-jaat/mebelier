@@ -73,7 +73,7 @@ export const CountSlider = () => {
               </p>
               <div className=" d-flex align-items-center pt-5">
                 <span
-                  className=" d-flex justify-content-center align-items-center"
+                  className=" d-flex insta_hover justify-content-center align-items-center"
                   data-aos="zoom-in"
                   data-aos-duration="2000"
                   data-aos-delay="300"
@@ -83,7 +83,7 @@ export const CountSlider = () => {
                   </a>
                 </span>
                 <span
-                  className="d-flex justify-content-center align-items-center ms-5"
+                  className="d-flex insta_hover justify-content-center align-items-center ms-5"
                   data-aos="zoom-in"
                   data-aos-duration="3000"
                   data-aos-delay="600"
@@ -93,7 +93,7 @@ export const CountSlider = () => {
                   </a>
                 </span>
                 <span
-                  className="d-flex justify-content-center align-items-center ms-5"
+                  className="d-flex insta_hover justify-content-center align-items-center ms-5"
                   data-aos="zoom-in"
                   data-aos-duration="2000"
                   data-aos-delay="900"
