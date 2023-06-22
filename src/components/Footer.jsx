@@ -16,7 +16,7 @@ const Footer = () => {
         <Row>
           <Col xxl={5} className="pe-xl-5">
             <img
-              className="w-100"
+              className="w_100 ps-5"
               data-aos="fade-down"
               data-aos-duration="3000"
               data-aos-delay="300"
