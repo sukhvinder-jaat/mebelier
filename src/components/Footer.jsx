@@ -11,8 +11,8 @@ import pin from "../assets/img/svg/pin.svg";
 
 const Footer = () => {
   return (
-    <section className="footer_back bg -black py-5">
-      <div className="footer_container">
+    <section className="footer_back bg -black py-5" id="footer">
+      <div className="footer_container py-5">
         <Row>
           <Col xxl={5} className="pe-xl-5">
             <img
@@ -34,37 +34,37 @@ const Footer = () => {
                   НАШИ КОНТАКТЫ
                 </p>
               </li>
-              <li className="pt-5">
+              <li className="pt-xl-5 pt-3">
                 <a
-                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
+                  className="mb-0 d-flex position-relative hover_line align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic text-nowrap"
                   href="tel:9812438052"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                   data-aos-delay="600"
                 >
-                  <span className="pe-4">
+                  <span className="pe-sm-4">
                     <img src={phone} alt="phone" />
                   </span>
                   +7 747 274 22 60
                 </a>
               </li>
-              <li className="pt-5">
+              <li className="pt-xl-5 pt-4">
                 <a
-                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
+                  className="mb-0 position-relative hover_line d-flex text-nowrap align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="tel:9812438052"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                   data-aos-delay="900"
                 >
-                  <span className="pe-4">
+                  <span className="pe-sm-4">
                     <img src={phone} alt="phone" />
                   </span>
                   +7 747 274 22 60
                 </a>
               </li>
-              <li className="pt-5">
+              <li className="pt-xl-5 pt-4 d-sm-block d-none">
                 <a
-                  className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
+                  className="mb-0 position-relative hover_line2 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="mailto:mebelier_almaty@inbox.ru"
                   data-aos="fade-right"
                   data-aos-duration="1500"
@@ -76,7 +76,7 @@ const Footer = () => {
                   mebelier_almaty@inbox.ru
                 </a>
               </li>
-              <li className="pt-5">
+              <li className="pt-sm-5 pt-3">
                 <a
                   className="mb-0 d-flex align-items-center fw_400 ff_Montserrat fs_xl clr_white_1 fst-italic"
                   href="#"
@@ -133,7 +133,7 @@ const Footer = () => {
           </Col>
         </Row>
         <div
-          className="d-flex flex-column flex-xl-row align-items-center justify-content-end input_box mt-5"
+          className="d-flex flex-column flex-xl-row align-items-center justify-content-end input_box mt-5 mb-xxl-5"
           data-aos="fade-up"
           data-aos-duration="3000"
           data-aos-delay="600"

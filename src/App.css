@@ -22,13 +22,13 @@
 
 :root {
   --fs-5xl: 35px;
-  --fs-4xl: 36px;
+  --fs-4xl: 29px;
   --fs-3xl: 20px;
   --fs-2xl: 30px;
   --fs-xl: 30px;
   --fs-lg: 35px;
   --fs-md: 24px;
-  --fs-sm: 30px;
+  --fs-sm: 23px;
   --fs-xsm: 20px;
   --color-clr_black: #000000 !important;
   --color-clr_white: #ffffff !important;
@@ -39,6 +39,7 @@
   --color-bg_black: #1e1e1e;
   --color-clr_grey: #606060 !important;
   --color-clr_input: #404040;
+  --clr-back-grey: rgba(217, 217, 217, 0.5);
 }
 
 .clr_black {
@@ -168,7 +169,7 @@
     --fs-2xl: 45px;
     --fs-xl: 40px;
     --fs-lg: 35px;
-    --fs-md: 32px;
+    --fs-md: 25px;
     --fs-sm: 30px;
     --fs-xsm: 20px;
   }

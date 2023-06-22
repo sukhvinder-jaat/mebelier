@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import bedroom from "../assets/img/videos/bedroom.mp4";
 const Project3d = () => {
   return (
-    <section className="py-5 my-5 max_w_1920">
+    <section className="py-md-5 my-lg-5 max_w_1920" id="section_3d">
       <Row className="flex-column-reverse flex-lg-row">
         <Col
           lg={6}
@@ -37,8 +37,10 @@ const Project3d = () => {
             data-aos-duration="2000"
             data-aos-delay="300"
           >
-            Для достижения наилучшего результата, подготовим подробные 3D эскизы
-            и чертежи.
+            Для достижения наилучшего результата,{" "}
+            <span className=" d-xxl-block">
+              подготовим подробные 3D эскизы и чертежи.
+            </span>
           </p>
         </Col>
       </Row>

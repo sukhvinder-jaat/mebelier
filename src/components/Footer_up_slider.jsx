@@ -17,7 +17,7 @@ export const Footer_up_slider = () => {
   };
   const buttons = React.useRef();
   return (
-    <div className="py-5 my-5">
+    <div className="py-5 my-xl-5" id="footer_up">
       <div className="slider_container">
         <p
           className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start"
