@@ -142,6 +142,9 @@
 }
 
 @media (min-width: 1200px) {
+    .vh_100{
+        height: 100vh;
+    }
     .input_box {
         padding-right: 180px;
         margin-top: 50px;

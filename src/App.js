@@ -38,7 +38,7 @@ function App() {
       <BetweenSection />
       <Footer_up_slider />
       <Footer />
-      {/* <Loading /> */}
+      <Loading />
       <BackToTop />
     </div>
   );
