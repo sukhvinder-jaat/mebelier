@@ -17,7 +17,7 @@ const Hero = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <section className="hero_bg vh_100 d-flex flex-column">
+    <section className="hero_bg d-flex flex-column vh_100_1920">
       <div className="py-3">
         <div className="d-flex justify-content-between align-items-center px-md-5 px-2">
           <div className="z_10 d-xxl-none">

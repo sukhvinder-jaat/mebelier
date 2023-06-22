@@ -288,3 +288,8 @@ body {
     transition: 0.6s ease-in-out;
   }
 }
+@media (max-width:1920px) and (min-width:1200px) {
+  .vh_100_1920{
+    min-height: 100vh;
+  }
+}
