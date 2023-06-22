@@ -100,18 +100,12 @@ const Footer = () => {
             <span className="d-flex gap-xl-5 pt-5">
               <a
                 className="insta_hover"
-                data-aos="zoom-in"
-                data-aos-duration="3000"
-                data-aos-delay="300"
                 href="https://www.instagram.com/mebelier_almaty/"
               >
                 <img src={instagram_2} alt="instagram_2" />
               </a>
               <a
                 className="insta_hover"
-                data-aos="zoom-in"
-                data-aos-duration="3000"
-                data-aos-delay="600"
                 href="https://api.whatsapp.com/send?phone=77472742260"
               >
                 <img
@@ -120,13 +114,7 @@ const Footer = () => {
                   alt="whatsap_2"
                 />
               </a>
-              <a
-                className="insta_hover"
-                data-aos="zoom-in"
-                data-aos-duration="3000"
-                data-aos-delay="900"
-                href="#"
-              >
+              <a className="insta_hover" href="#">
                 <img src={home_2} alt="home_2" />
               </a>
             </span>

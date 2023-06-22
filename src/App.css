@@ -22,13 +22,13 @@
 
 :root {
   --fs-5xl: 35px;
-  --fs-4xl: 29px;
+  --fs-4xl: 25px;
   --fs-3xl: 20px;
   --fs-2xl: 30px;
-  --fs-xl: 30px;
+  --fs-xl: 25px;
   --fs-lg: 35px;
-  --fs-md: 24px;
-  --fs-sm: 23px;
+  --fs-md: 20px;
+  --fs-sm: 20px;
   --fs-xsm: 20px;
   --color-clr_black: #000000 !important;
   --color-clr_white: #ffffff !important;

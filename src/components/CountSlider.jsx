@@ -74,9 +74,7 @@ export const CountSlider = () => {
               <div className=" d-flex align-items-center pt-5">
                 <span
                   className=" d-flex insta_hover justify-content-center align-items-center"
-                  data-aos="zoom-in"
-                  data-aos-duration="2000"
-                  data-aos-delay="300"
+                 
                 >
                   <a href="https://api.whatsapp.com/send?phone=77472742260">
                     <img src={chat} alt="chat" className="w-75" />
@@ -84,9 +82,7 @@ export const CountSlider = () => {
                 </span>
                 <span
                   className="d-flex insta_hover justify-content-center align-items-center ms-5"
-                  data-aos="zoom-in"
-                  data-aos-duration="3000"
-                  data-aos-delay="600"
+                 
                 >
                   <a href="https://www.instagram.com/mebelier_almaty/">
                     <img src={insta} alt="insta" className="w-75" />
@@ -94,9 +90,7 @@ export const CountSlider = () => {
                 </span>
                 <span
                   className="d-flex insta_hover justify-content-center align-items-center ms-5"
-                  data-aos="zoom-in"
-                  data-aos-duration="2000"
-                  data-aos-delay="900"
+                 
                 >
                   <a href="#">
                     <img src={home} alt="home" className="w-75" />

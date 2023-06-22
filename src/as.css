@@ -63,11 +63,11 @@
 }
 
 .insta_hover {
-    transition: all 0.3s linear;
+    transition: all 0.3s linear !important;
 }
 
 .insta_hover:hover {
-    transform: translateY(-8px);
+    transform: translateY(-8px) !important;
 }
 
 /* project3d */
