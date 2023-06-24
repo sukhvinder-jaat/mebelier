@@ -3,11 +3,11 @@ import { Row, Col } from "react-bootstrap";
 import window from "../assets/img/webp/window.webp";
 const Functional = () => {
   return (
-    <section className="py-5 my-xl-5 max_w_1920">
-      <Row>
+    <section className="py-sm-5 pt-4 my-xl-5 max_w_1920">
+      <Row className=" flex-column-reverse flex-lg-row">
         <Col
           lg={6}
-          className="text-start align-items-start d-flex flex-column justify-content-center ps-lg-5 ps-4"
+          className="text-start align-items-start pt-lg-0 pt-3 d-flex flex-column justify-content-center ps-lg-5 ps-4"
         >
           <p
             className="fw_400 ff_forum fs_4xl clr_black"

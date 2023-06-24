@@ -26,12 +26,22 @@ export const CountSlider = () => {
       );
     },
   };
+  var slider_bottom2 = {
+    dots: false,
+    infinite: true,
+    arrows: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   const buttons = React.useRef();
+  const [nav1, setNav1] = React.useState();
+  const [nav2, setNav2] = React.useState();
   return (
     <>
       <div className="max_w_1920 ps-sm-0 ps-3 mlra pt-5 mt-xxl-5">
         <p
-          className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start pt-5 mt-xl-5"
+          className=" ff_Montserrat fs_5xl clr_light_black fw_400 mb-0 lh_90p text-start pt-sm-5 mt-xl-5"
           data-aos="fade-right"
           data-aos-duration="1500"
           data-aos-delay="600"
@@ -54,44 +64,138 @@ export const CountSlider = () => {
             className="bg_light_black col_12_1500 tranform_small pe-0 d-flex flex-column justify-content-between ps-sm-4 ps-4"
           >
             <div className="p-md-4 p-2">
-              <p
-                className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
-                data-aos="fade-down"
-                data-aos-duration="3000"
-                data-aos-delay="300"
+              <Slider
+                {...slider_bottom2}
+                asNavFor={nav2}
+                ref={((slider1) => setNav1(slider1), buttons)}
               >
-                получите консультацию специалиста
-              </p>
-              <p
-                className=" text-white fw_700 ff_Montserrat fs_md lh-1"
-                data-aos="fade-down"
-                data-aos-duration="1500"
-                data-aos-delay="900"
-              >
-                Оставьте свои данные для
-                <span className="d_block_1500">обратной связи</span>
-              </p>
+                <div>
+                  <p
+                    className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
+                    получите консультацию специалиста
+                  </p>
+                  <p
+                    className=" text-white fw_700 ff_Montserrat fs_md lh-1"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="900"
+                  >
+                    Оставьте свои данные для
+                    <span className="d_block_1500">обратной связи</span>
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
+                    получите консультацию специалиста
+                  </p>
+                  <p
+                    className=" text-white fw_700 ff_Montserrat fs_md lh-1"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="900"
+                  >
+                    Оставьте свои данные для
+                    <span className="d_block_1500">обратной связи</span>
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
+                    получите консультацию специалиста
+                  </p>
+                  <p
+                    className=" text-white fw_700 ff_Montserrat fs_md lh-1"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="900"
+                  >
+                    Оставьте свои данные для
+                    <span className="d_block_1500">обратной связи</span>
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
+                    получите консультацию специалиста
+                  </p>
+                  <p
+                    className=" text-white fw_700 ff_Montserrat fs_md lh-1"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="900"
+                  >
+                    Оставьте свои данные для
+                    <span className="d_block_1500">обратной связи</span>
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
+                    получите консультацию специалиста
+                  </p>
+                  <p
+                    className=" text-white fw_700 ff_Montserrat fs_md lh-1"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="900"
+                  >
+                    Оставьте свои данные для
+                    <span className="d_block_1500">обратной связи</span>
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className="clr_white ff_Montserrat fw_700 fs_xl lh-1 pb-3"
+                    data-aos="fade-down"
+                    data-aos-duration="3000"
+                    data-aos-delay="300"
+                  >
+                    получите консультацию специалиста
+                  </p>
+                  <p
+                    className=" text-white fw_700 ff_Montserrat fs_md lh-1"
+                    data-aos="fade-down"
+                    data-aos-duration="1500"
+                    data-aos-delay="900"
+                  >
+                    Оставьте свои данные данные для
+                    <span className="d_block_1500">обратной связи</span>
+                  </p>
+                </div>
+              </Slider>
               <div className=" d-flex align-items-center pt-5">
-                <span
-                  className=" d-flex insta_hover justify-content-center align-items-center"
-                 
-                >
+                <span className=" d-flex insta_hover justify-content-center align-items-center">
                   <a href="https://api.whatsapp.com/send?phone=77472742260">
                     <img src={chat} alt="chat" className="w-75" />
                   </a>
                 </span>
-                <span
-                  className="d-flex insta_hover justify-content-center align-items-center ms-5"
-                 
-                >
+                <span className="d-flex insta_hover justify-content-center align-items-center ms-5">
                   <a href="https://www.instagram.com/mebelier_almaty/">
                     <img src={insta} alt="insta" className="w-75" />
                   </a>
                 </span>
-                <span
-                  className="d-flex insta_hover justify-content-center align-items-center ms-5"
-                 
-                >
+                <span className="d-flex insta_hover justify-content-center align-items-center ms-5">
                   <a href="#">
                     <img src={home} alt="home" className="w-75" />
                   </a>
@@ -100,21 +204,33 @@ export const CountSlider = () => {
             </div>
             <div className="d-flex justify-content-end align-items-center mt-5">
               <span
-                className="bg_white p-lg-3 p-sm-2 p-1 pointer"
+                className="bg_white btn_slider_padding pointer text-center"
                 onClick={() => buttons.current.slickPrev()}
               >
-                <img src={arrow_left} alt="arrow_left" className="w-100" />
+                <img
+                  src={arrow_left}
+                  alt="arrow_left"
+                  className="slider_2_btns"
+                />
               </span>
               <span
-                className="bg_white p-lg-3 p-sm-2 p-1 border_left_btn pointer"
+                className="bg_white btn_slider_padding text-center border_left_btn pointer"
                 onClick={() => buttons.current.slickNext()}
               >
-                <img src={arrow_right} alt="arrow_left" className="w-100" />
+                <img
+                  src={arrow_right}
+                  alt="arrow_left"
+                  className="slider_2_btns"
+                />
               </span>
             </div>
           </Col>
           <Col xs={7} className="p-0 col_12_1500">
-            <Slider {...slider_bottom} ref={buttons} className="">
+            <Slider
+              {...slider_bottom}
+              ref={(slider2) => setNav2(slider2)}
+              slidesToShow={1}
+            >
               <img src={blum_slider} alt="blum_slider" className="w-100" />
               <img src={blum_slider_1} alt="blum_slider_1" className="w-100" />
               <img src={blum_slider_2} alt="blum_slider_2" className="w-100" />

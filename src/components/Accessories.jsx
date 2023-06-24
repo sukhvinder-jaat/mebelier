@@ -4,7 +4,7 @@ import blum from "../assets/img/videos/blum.mp4";
 const Accessories = () => {
   return (
     <section className="py-5 max_w_1920">
-      <Row className="flex-column-reverse flex-lg-row">
+      <Row>
         <Col
           lg={6}
           className="pe-lg-5"

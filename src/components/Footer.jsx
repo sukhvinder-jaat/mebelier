@@ -16,17 +16,17 @@ const Footer = () => {
         <Row>
           <Col xxl={5} className="pe-xl-5">
             <img
-              className="w_100 ps-5"
+              className="w_100 ps-sm-5 ps-2"
               data-aos="fade-down"
               data-aos-duration="3000"
               data-aos-delay="300"
               src={footer_logo}
               alt="footer_logo"
             />
-            <ul className="ps-0 mt-5 pt-5">
+            <ul className="ps-0 mt-sm-5 mt-3 pt-sm-5 pt-4">
               <li>
                 <p
-                  className="fw_700 ff_Montserrat fs_xl clr_white ms-5 ps-4"
+                  className="fw_700 ff_Montserrat fs_xl clr_white ms-sm-5 ps-sm-4 ps-2"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                   data-aos-delay="300"
@@ -43,7 +43,7 @@ const Footer = () => {
                   data-aos-delay="600"
                 >
                   <span className="pe-sm-4">
-                    <img src={phone} alt="phone" />
+                    <img src={phone} alt="phone" className="footer_icon_w" />
                   </span>
                   +7 747 274 22 60
                 </a>
@@ -57,7 +57,7 @@ const Footer = () => {
                   data-aos-delay="900"
                 >
                   <span className="pe-sm-4">
-                    <img src={phone} alt="phone" />
+                    <img src={phone} alt="phone" className="footer_icon_w" />
                   </span>
                   +7 747 274 22 60
                 </a>
@@ -71,7 +71,7 @@ const Footer = () => {
                   data-aos-delay="1200"
                 >
                   <span className="pe-4">
-                    <img src={email} alt="email" />
+                    <img src={email} alt="email" className="footer_icon_w" />
                   </span>
                   mebelier_almaty@inbox.ru
                 </a>
@@ -84,8 +84,8 @@ const Footer = () => {
                   data-aos-duration="1500"
                   data-aos-delay="1500"
                 >
-                  <span className="pe-4">
-                    <img src={pin} alt="pin" />
+                  <span className="pe-sm-4 pe-3">
+                    <img src={pin} alt="pin" className="" />
                   </span>
                   г. Алматы, ул. Коперника, 72В
                 </a>
@@ -97,25 +97,25 @@ const Footer = () => {
             className="d-flex flex-column align-items-center ps-xl-5"
           >
             <img className="w-100" src={footer_map} alt="footer_map" />
-            <span className="d-flex gap-xl-5 pt-5">
+            <span className="d-flex gap-xl-5 pt-5 align-items-center">
               <a
                 className="insta_hover"
                 href="https://www.instagram.com/mebelier_almaty/"
               >
-                <img src={instagram_2} alt="instagram_2" />
+                <img src={instagram_2} alt="instagram_2" className=" footer_icon_w" />
               </a>
               <a
-                className="insta_hover"
+                className="insta_hover pe-lg-5 pe-4"
                 href="https://api.whatsapp.com/send?phone=77472742260"
               >
                 <img
-                  className="px-xl-5 mx-xl-5 px-4"
+                  className="px-xl-4 mx-xl-5 footer_icon_w"
                   src={whatsap_2}
                   alt="whatsap_2"
                 />
               </a>
               <a className="insta_hover" href="#">
-                <img src={home_2} alt="home_2" />
+                <img src={home_2} alt="home_2" className=" footer_icon_w" />
               </a>
             </span>
           </Col>

@@ -4,7 +4,7 @@ import bedroom from "../assets/img/videos/bedroom.mp4";
 const Project3d = () => {
   return (
     <section className="py-md-5 my-lg-5 max_w_1920" id="section_3d">
-      <Row className="flex-column-reverse flex-lg-row">
+      <Row>
         <Col
           lg={6}
           className="pe-lg-5"

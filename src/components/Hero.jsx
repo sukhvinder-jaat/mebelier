@@ -137,7 +137,7 @@ const Hero = () => {
           <p className="fw_400 ff_forum fs_lg clr_white_1 text-capitalize pt-4">
             МЕБЕЛЬНАЯ ФАБРИКА
           </p>
-          <div className="py-5 mt-5">
+          <div className="py-md-5 pt-3 mt-lg-5">
             <p className="fw_400 ff_forum fs_lg clr_white_1">
               ХОТИТЕ ПОЛУЧИТЬ БЫСТРЫЙ РАСЧЕТ?
             </p>

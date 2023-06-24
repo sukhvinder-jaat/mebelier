@@ -4,7 +4,7 @@ import washfashion from "../assets/img/videos/washfashion.mp4";
 const Bce = () => {
   return (
     <section className="py-5 max_w_1920">
-      <Row className="flex-column-reverse flex-lg-row">
+      <Row>
         <Col
           lg={6}
           className="pe-lg-5"
@@ -33,15 +33,15 @@ const Bce = () => {
             все еще сомневаетесь?
           </p>
           <p
-            className="fw_400 ff_Montserrat fs_md clr_light_black max_w_250"
+            className="fw_400 ff_Montserrat fs_md clr_light_black"
             data-aos="fade-up"
             data-aos-duration="3000"
             data-aos-delay="600"
           >
-            Получите консультацию прямо сейчас
+            Получите консультацию <span className=" d-lg-block">прямо сейчас</span>
           </p>
           <button
-            className="fw_400 ff_Montserrat fs_sm clr_black text-uppercase bce_btn mt-5 btn_hover"
+            className="fw_400 ff_Montserrat fs_sm clr_black text-uppercase bce_btn mt-lg-5 mt-4 btn_hover"
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="900"

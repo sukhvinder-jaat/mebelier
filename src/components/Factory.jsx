@@ -3,8 +3,8 @@ import { Row, Col } from "react-bootstrap";
 import map from "../assets/img/webp/map.webp";
 const Factory = () => {
   return (
-    <section className="py-5 my-xl-5 max_w_1920">
-      <Row>
+    <section className="py-sm-5 my-xl-5 max_w_1920">
+      <Row className=" flex-column-reverse flex-lg-row">
         <Col
           lg={6}
           className="text-start align-items-start d-flex flex-column justify-content-center ps-lg-5 ps-4"

@@ -119,7 +119,7 @@ export const Footer_up_slider = () => {
         data-aos-duration="3000"
         data-aos-delay="600"
       >
-        <button className="fw_400 fs_4xl ff_Montserrat clr_black our_btn bg-transparent btn_hover">
+        <button className="fw_400 fs_4xl2 ff_Montserrat clr_black our_btn bg-transparent btn_hover">
           ОСТАВИТЬ ОТЗЫВ
         </button>
       </div>
